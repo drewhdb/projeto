@@ -28,7 +28,6 @@ Atualização automática dos clientes, baseado na Aplicação Oryx Support - pr
 
 Armazenar arquivos do suporte no mesmo site
 
-
 6. REFERÊNCIAS
 https://tympanus.net/codrops/2014/09/16/off-canvas-menu-effects/ -> barra lateral, mas modifiquei bastante
 https://www.loopnerd.com.br/codigos-css-prontos/formulario-de-cadastro-html-css-pronto/   ->   formulario

@@ -45,7 +45,7 @@ container {
     border: solid 5px rgb(83, 11, 199);
 }
 
-.add-card, .search-card {
+.add-card{
     position: relative;
     background-color: rgba(109, 25, 157, 1);
     height: 3em;
@@ -53,14 +53,6 @@ container {
     border: rgba(0, 0, 0, 1) 1px solid;
     box-shadow: 0px 0px 10px rgba(175, 65, 238, 1), 0px 0px 10px rgba(175, 65, 238, 1) inset;
     color: #FFF;
-}
-
-.search-card{
-    width: 50%;
-    margin-right: 0.3em;
-}
-
-.add-card  {
     width: 10em;
 }
 

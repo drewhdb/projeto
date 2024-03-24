@@ -30,13 +30,13 @@ container {
     gap: 10px;
 }
 
+/* tags */
 form{
     display: grid;
     grid-template-columns: 100%;
     gap: 15px;
 }
 
-/* tags */
 img {
     border: 0;
 }
@@ -87,6 +87,10 @@ input[type="search"]::-webkit-search-cancel-button{
     margin: 0 0.5em 0.3em 0;
 }
 
+input[type="date"] {
+    justify-content: center;
+}
+
 fieldset{
     padding: 0;
     margin: 0;
@@ -94,10 +98,6 @@ fieldset{
     height: auto;
     display: inline-block;
     border: none;
-}
-
-input[type="date"] {
-    justify-content: center;
 }
 
 select {
@@ -123,6 +123,8 @@ textarea {
     overflow-y: hidden;
 }
 
+
+/* Menu */
 .menu-wrap {
     background: #000000;
     position: fixed;
