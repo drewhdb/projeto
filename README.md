@@ -30,7 +30,6 @@ Armazenar arquivos do suporte no mesmo site
 
 6. REFERÊNCIAS
 https://tympanus.net/codrops/2014/09/16/off-canvas-menu-effects/ -> barra lateral, mas modifiquei bastante
-https://www.loopnerd.com.br/codigos-css-prontos/formulario-de-cadastro-html-css-pronto/   ->   formulario
 
 layout:
 https://app.moqups.com/tZcdGBvl9FH6ElOaIDSi6uEe26MzgDiP/edit/page/a4ef3fe51
