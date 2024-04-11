@@ -75,11 +75,18 @@ Preencher o cronograma abaixo com a descrição das atividades a serem desenvolv
 
 Descrição da atividade
 Mai. **moqups**
+
 Jun. **layout site**
+
 Jul. 
+
 Ago. 
+
 Set. **sistema funcionando (tela clietes, tela anotações e tela configuração)**  -- Apresentação do seminário de andamento
+
 Out.
+
 Nov.
+
 Dez. Entrega do artigo científico e apresentação final do projeto
 
