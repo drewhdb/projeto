@@ -73,6 +73,7 @@ Itens que poderão ser contemplados nesta seção:
 Preencher o cronograma abaixo com a descrição das atividades a serem desenvolvidas (uma atividade por linha), apontando o período planejado para execução das atividades ao longo do período de execução dos projetos.
 
 Descrição da atividade
+
 Mai. **moqups**
 
 Jun. **layout site**
