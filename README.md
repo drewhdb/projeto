@@ -17,10 +17,12 @@ Título (provisório): Oryx Support
 
 2. CONTEXTUALIZAÇÃO DO TEMA
 Organização de dados da empresa, a fim de armazenar e organizar dados importantes e demandas da empresa e dos clientes. 
+
 A organização dos dados da empresa é algo crucial, e pensando nisso, foi notado na empresa Magnadata que não há uma organização dos dados de forma totalmente satisfatória: Temos dados espalhados em excels, vários sites em uso para organizar algumas coisas ou até mesmo dados não organizados. Ao ter os dados organizados e te fácil acesso, todas as demandas podem ser melhor planejada/executada sabendo aonde procurar os dados, e também evitará futuros problemas 
 
 3. PROBLEMA E JUSTIFICATIVA
 Entretanto, essa organização não é uma tarefa simples. Os funcionários da empresa que organizam os dados não conseguem fazer isso de forma tão prática e simples tendo todas as informações espalhadas, por isso é necessário uma aplicação para celular e computador, que permita a organização desses dados quando e onde quiser, além do fácil acesso a esses dados.
+
 Apesar de existir alguns apps para documentar dados, a ideia da empresa ter o site do suporte é conseguir englobar mais de uma forma de anotação, uma junção do google keeps e trello - trazendo a área específica de controle de clientes e de dados da empresa - facilitando assim a organização. 
 
 5. OBJETIVOS
@@ -38,7 +40,7 @@ Armazenar arquivos do suporte no mesmo site
 **ETAPA 2 - PLANEJAMENTO**
 
 1. IDENTIFICAÇÃO DO PROJETO
-Aluno integrante: Andrew Horn de Borba
+Aluno integrante: Andrew Horn de Borba; 
 Título (provisório): Oryx Support
 
 2. RESULTADOS ESPERADOS
@@ -52,23 +54,20 @@ Iniciar o uso do sistema na empresa, para registrar dados dos clientes. O suport
 
 4. DEFINIÇÃO DA ARQUITETURA
 Itens que poderão ser contemplados nesta seção:
-Apresentação das partes do sistema, possíveis integrações com aplicações, localização e contextualização do sistema dentro do ambiente já existente (sugestão: criar uma figura para facilitar apresentação);
-Descrição das tecnologias a serem utilizadas:
-Linguagens de programação
-Bibliotecas e frameworks
-Banco de dados
-IDEs para o desenvolvimento
-(...)
-<completar aqui>
+- Apresentação das partes do sistema, possíveis integrações com aplicações, localização e contextualização do sistema dentro do ambiente já existente (sugestão: criar uma figura para facilitar apresentação);
+- Descrição das tecnologias a serem utilizadas:
+- Linguagens de programação
+- Bibliotecas e frameworks
+- Banco de dados
+- IDEs para o desenvolvimento
 
 5. ESPECIFICAÇÕES E MODELAGEM DO SOFTWARE
 Itens que poderão ser contemplados nesta seção:
-Requisitos do sistema (funcionais, não funcionais e de sistema)
-Diagrama de casos de uso
-Prototipação das interfaces do sistema
-Diagrama das tabelas do banco de dados
-Backlog com as funcionalidades a serem desenvolvidas
-<completar aqui>
+- Requisitos do sistema (funcionais, não funcionais e de sistema)
+- Diagrama de casos de uso
+- Prototipação das interfaces do sistema
+- Diagrama das tabelas do banco de dados
+- Backlog com as funcionalidades a serem desenvolvidas
 
 6. ATIVIDADES E CRONOGRAMA
 Preencher o cronograma abaixo com a descrição das atividades a serem desenvolvidas (uma atividade por linha), apontando o período planejado para execução das atividades ao longo do período de execução dos projetos.
