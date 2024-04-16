@@ -43,7 +43,8 @@ INSERT INTO mdl (mdlmodulo, mldesc, mdlcategoria) VALUES ('GESTÃO', 'sistema ER
     ('ORYXNFE', 'PLACE PARA CELULAR', '3'),
     ('BI', 'Gráficos de dados', '3'),
     ('GERTEC', 'LEITURA DE CÓDIGO DE BARRA PARA OS CLIENTES DOS CLIENTES', '3'),
-    ('ALEXA', 'integração Alexa', '4');
+    ('ALEXA', 'integração Alexa', '4'),
+    ('TEF', 'integração Alexa', '3');
 
 -- DO SUPPORT
 CREATE TABLE ver (
@@ -76,15 +77,18 @@ CREATE TABLE cl5 (
     cl5apelido VARCHAR(10) DEFAULT '',
     cl5desc VARCHAR(40) NOT NULL,
     cl5atacado INT DEFAULT 0,
-    cl5local VARCHAR(30) DEFAULT ''
+    cl5local VARCHAR(30) DEFAULT '',
+    cl5integra VARCHAR(30) DEFAULT ''
 )  ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-INSERT INTO cl5 (cl5apelido, cl5desc, cl5atacado) VALUES
-('CCF', 'Centro de Compras Farroupilha', 0),
-('FAC', 'Farroupilhas center', 1),
-('585', '', 1),
-('CCB', 'Centro de Compras Bom Principio', 0),
-('Litoral', 'Shopping Litoral SC', 0);
+INSERT INTO cl5 (cl5apelido, cl5desc, cl5local, cl5atacado, cl5integra) VALUES
+('CCF', 'Centro de Compras Farroupilha', 'Farroupilha - RS', 0, ''),
+('FAC', 'Farroupilhas center', 'Farroupilha - RS', 1, ''),
+('585', '', 'Farroupilha - RS', 1, ''),
+('GOLDEN', 'Golden Center', 'Farroupilha - RS', 1, 'Ezetech'),
+('CCB', 'Centro de Compras Bom Principio', 'Bom Principio - RS', 0, ''),
+('LITORAL', 'Shopping Litoral', 'Litoral - SC', 0, 'ibasi'),
+('BRUSQUE', '', 'Brusque - SC', 0, 'ibasi');
 
 -- Tabela de estabelecimentos, matriz ou filiais de um cliente
 CREATE TABLE cl2 (
