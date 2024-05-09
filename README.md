@@ -52,41 +52,59 @@ CRUD das configurações da empresa
 - Impacto esperado:
 Iniciar o uso do sistema na empresa, para registrar dados dos clientes. O suporte da empresa iria usar para controle de dados, e praticidade na busca das informações da empresa
 
-4. DEFINIÇÃO DA ARQUITETURA
+3. DEFINIÇÃO DA ARQUITETURA
 Itens que poderão ser contemplados nesta seção:
-- Apresentação das partes do sistema, possíveis integrações com aplicações, localização e contextualização do sistema dentro do ambiente já existente (sugestão: criar uma figura para facilitar apresentação);
+- Apresentação das partes do sistema, possíveis integrações com aplicações, localização e contextualização do sistema dentro do ambiente já existente
+    moqups
 - Descrição das tecnologias a serem utilizadas:
+    sistema web
 - Linguagens de programação
-- Bibliotecas e frameworks
+    HTML, CSS e VUE.JS
+- Bibliotecas
+    Ionicons
 - Banco de dados
+    Mysql 5.5
 - IDEs para o desenvolvimento
+    Mysql Query Browser, VS Code
 
-5. ESPECIFICAÇÕES E MODELAGEM DO SOFTWARE
+4. ESPECIFICAÇÕES E MODELAGEM DO SOFTWARE
 Itens que poderão ser contemplados nesta seção:
 - Requisitos do sistema (funcionais, não funcionais e de sistema)
-- Diagrama de casos de uso
-- Prototipação das interfaces do sistema
-- Diagrama das tabelas do banco de dados
-- Backlog com as funcionalidades a serem desenvolvidas
+    Permitir que os usuários façam login com um nome de usuário e senha, cadastrem, editem e excluam clientes, controlem anotações da empresa
+    O sistema deve ser compatível com os navegadores mais recentes, acessível em qualquer lugar, seguro para guardar informações importantes
+    O sistema deve ser leve e ter curto tempo de resposta, além de prático.
 
-6. ATIVIDADES E CRONOGRAMA
+- Diagrama de casos de uso
+    Envolve Login e cadastro. Não possui permissão por usuario. 
+
+- Prototipação das interfaces do sistema
+    Design intuitivo e de fácil acesso.
+    Moqups
+     
+- Diagrama das tabelas do banco de dados
+    Banco de dados está concluido.
+    Fazer pelo Workbench
+- Backlog com as funcionalidades a serem desenvolvidas
+    Farei pelo Trello. Quero aprender VUE.JS antes
+  
+5. ATIVIDADES E CRONOGRAMA
 Preencher o cronograma abaixo com a descrição das atividades a serem desenvolvidas (uma atividade por linha), apontando o período planejado para execução das atividades ao longo do período de execução dos projetos.
 
 Descrição da atividade
 
-Mai. **moqups**
+Mai. **moqups e css do site para parte decorativa do site** 
 
-Jun. **layout site**
+Jun. **Aprender VUE.JS**
 
-Jul. 
+Jul. **Aprender VUE.JS e planejar parte lógica do site**
 
-Ago. 
+Ago. **Finalizar curso de VUE.JS e iniciar parte lógica do site**
 
-Set. **sistema funcionando (tela clietes, tela anotações e tela configuração)**  -- Apresentação do seminário de andamento
+Set. **terminar parte lógica (CRUD (tela clietes, tela anotações e tela configuração) , LOGIN e LOGOF)**  -- Apresentação do seminário de andamento
 
-Out.
+Out. **Integração com o busca cep - correios**
 
-Nov.
+Nov. **planejar api da Alexa e da atualização automática no site e executar parte decorativa e lógica da api no site**
 
 Dez. Entrega do artigo científico e apresentação final do projeto
 
