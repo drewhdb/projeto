@@ -2,6 +2,26 @@
 Projeto integrador 2024
 https://app.moqups.com/tZcdGBvl9FH6ElOaIDSi6uEe26MzgDiP/edit/page/a4ef3fe51
 
+clientes campo link_trello
+cliente -> cf1
+estabelecimento -> est
+est + mod -> esm
+est + mod + ver -> esv
+
+modulo -> mod
+modulopai
+
+scr
+ved
+ver
+
+-- 
+anotações campo lead
+
+
+DOCUMENTAÇÃO 
+
+
 **referencias**
 Realizar a formatação das referências utilizando a norma NBR 6023. 
 Sugestão: utilizar ferramenta MORE para geração automática das referências: https://more.ufsc.br/
