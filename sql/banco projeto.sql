@@ -10,28 +10,21 @@ CREATE TABLE usr (
     usrcriacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     usrativo INT DEFAULT 1
 )  ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
 INSERT INTO usr (usrnome, usrsenha) VALUES ('Andrew', 'senha'), ('Luan', 'senha'), ('Braian', 'senha');
 
--- Tabela de categorias dos módulos
-CREATE TABLE ctm (
-    ctmid INT PRIMARY KEY AUTO_INCREMENT,
-    ctmdesc VARCHAR(10) NOT NULL,
-    ctmsubmdl DECIMAL(1,0) DEFAULT 0,
-    ctmalexa DECIMAL(1,0) DEFAULT 0
+-- Tabela de sistemas
+CREATE TABLE sis (
+    sisid INT PRIMARY KEY AUTO_INCREMENT,
+    sisdesc VARCHAR(20) not null
 )  ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- Tabela de categorias dos módulos
-INSERT INTO ctm (ctmdesc) VALUES ('ERP'), ('WHATSAPP');
-INSERT INTO ctm (ctmdesc, ctmsubmdl) VALUES ('SUB-MODULO', 1);
-INSERT INTO ctm (ctmdesc, ctmalexa) VALUES ('ALEXA', 1);
 
 -- Tabela de módulos
 CREATE TABLE mdl (
-    mdlmodulo VARCHAR(20) PRIMARY KEY,
-    mldesc VARCHAR(100),
-    mdlcategoria INT,
-    CONSTRAINT fk_mod_ctm FOREIGN KEY (mdlcategoria) REFERENCES ctm (ctmid)
+    mdlmodulo INT AUTO_INCREMENT,
+    mdlsistema INT not null,
+    mdldesc VARCHAR(100),
+    PRIMARY KEY (mdlsistema, mdlmodulo),
+    CONSTRAINT fk_mdl_sis FOREIGN KEY (mdlsistema) REFERENCES sis (sisid)
 )  ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO mdl (mdlmodulo, mldesc, mdlcategoria) VALUES ('GESTÃO', 'sistema ERP de vendas', '1'),
@@ -108,6 +101,7 @@ CREATE TABLE cl2 (
     cl2obs LONGTEXT,
     cl2acesso LONGTEXT,
     cl2ender LONGTEXT,
+    cl2link LONGTEXT,
     CONSTRAINT fk_cl2_cl1 FOREIGN KEY (cl2cliente) REFERENCES cl1 (cl1cliente),
     CONSTRAINT fk_cl2_cl4 FOREIGN KEY (cl2tipoest) REFERENCES cl4 (cl4tipo),
     CONSTRAINT fk_cl2_cl5 FOREIGN KEY (cl2shopping) REFERENCES cl5 (cl5shopping)
