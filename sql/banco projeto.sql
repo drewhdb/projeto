@@ -17,9 +17,9 @@ CREATE TABLE usr (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- Inserção de usuários na tabela 'usr'
-INSERT INTO usr (usrnome, usrsenha) VALUES 
-    ('Andrew', 'senha'), 
-    ('Luan', 'senha'), 
+INSERT INTO usr (usrnome, usrsenha) VALUES
+    ('Andrew', 'senha'),
+    ('Luan', 'senha'),
     ('Braian', 'senha');
 
 -- Criação da tabela de anotações
@@ -89,8 +89,8 @@ CREATE TABLE tpo (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- Inserção de tipos de estabelecimentos na tabela 'tpo'
-INSERT INTO tpo (tpodesc) VALUES 
-    ('Filial'), 
+INSERT INTO tpo (tpodesc) VALUES
+    ('Filial'),
     ('Matriz');
 
 -- Criação da tabela de shoppings
@@ -206,4 +206,22 @@ CREATE TABLE cl6 (
     CONSTRAINT fk_cl6_mdl FOREIGN KEY (cl6modulo) REFERENCES mdl (mdlmodulo),
     CONSTRAINT fk_cl6_responsavel FOREIGN KEY (cl6resp) REFERENCES usr (usrid),
     CONSTRAINT fk_cl6_responsavel_atualizacao FOREIGN KEY (cl6respatt) REFERENCES usr (usrid)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- Criação da tabela de pdv
+CREATE TABLE pdv (
+    pdvest INT,
+    pdvsistema INT,
+    pdvexe char(100) not null,
+    pdvhost char(100) not null,
+    pdvweb int not null,
+    pdvsrvc int not null,
+    pdvgtw int not null,
+    pdvhostext int not null,
+    pdvhost2ext int not null,
+    pdvwebext int not null,
+    pdvgtwext int not null,
+    PRIMARY KEY (pdvest, pdvsistema),
+    CONSTRAINT fk_pdv_cl2 FOREIGN KEY (pdvest) REFERENCES cl2 (cl2est),
+    CONSTRAINT fk_pdv_mdl FOREIGN KEY (pdvsistema) REFERENCES sis (sisid)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
